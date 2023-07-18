@@ -25,6 +25,7 @@
     left: 0;
     right: 0;
     padding: 1rem 0;
+    font-family: 'f1';
 }
 #hd>div{
     justify-content: space-between;
@@ -62,4 +63,13 @@ li:hover .globalbox{
 .globala{
     display: block;
     padding-bottom: 10px;
+}
+.globala i:nth-child(2),
+.globala:hover i:nth-child(1){
+    display: none;
+}
+
+.globala:hover i:nth-child(2),
+.globala i:nth-child(1){
+    display: block;
 }
