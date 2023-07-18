@@ -64,12 +64,14 @@ li:hover .globalbox{
     display: block;
     padding-bottom: 10px;
 }
-.globala i:nth-child(2),
-.globala:hover i:nth-child(1){
+.globala i:nth-child(2), /*아시아지구 원래 안보이기*/
+li:hover .globala:hover i:nth-child(1) /*마우스 올라가면 망사지구 사라지기*/
+{
     display: none;
 }
 
-.globala:hover i:nth-child(2),
-.globala i:nth-child(1){
+li:hover .globala:hover i:nth-child(2), /*마우스가 올라가면 아시아지구 나타나기*/
+.globala i:nth-child(1) /*망사지구보이기*/
+{
     display: block;
 }
