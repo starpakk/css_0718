@@ -1,0 +1,65 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.d-flex{
+    display: flex;
+
+}
+
+.rel{
+    position: relative;
+}
+.abs{
+    position: absolute;
+}
+.fix{
+    position: fixed;
+}
+
+
+#hd{
+    background-color: rgba(201, 201, 201, 0.26);
+    top:0;
+    left: 0;
+    right: 0;
+    padding: 1rem 0;
+}
+#hd>div{
+    justify-content: space-between;
+    align-items: center;
+}
+#hd a{
+    color:#525252;
+    text-decoration: none;
+    padding-left:  0.4rem;
+    padding-right: 0.4rem;
+}
+.globalbox{
+    left: -1rem;
+    top: 100%;
+    width: 100px;
+    background-color: rgba(137, 43, 226, 0.336);
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-indent: 1.5rem;
+}
+#hd .globalbox a{
+    color: white;
+}
+
+
+li:hover .globalbox{
+    height: 5rem;
+    border: #ccc;
+}
+.globala{
+    display: block;
+    padding-bottom: 10px;
+}
